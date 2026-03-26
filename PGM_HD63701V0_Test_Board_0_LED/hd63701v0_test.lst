@@ -1,0 +1,69 @@
+ AS V1.42 Beta [Bld 293] - Source File hd63701v0_test.asm - Page 1 - 3/26/2026 21:15:9
+
+
+    1/   0 :                                    cpu 6301
+    2/   0 :                            
+    3/   0 :                            	; Reset vector
+    4/FFFE :                            	org $FFFE
+    5/FFFE :                            resvec:
+    6/FFFE : F0 00                      	FDB    start
+    7/10000 :                           
+    8/F000 :                                    org $F000
+    9/F000 :                                    
+   10/F000 :                            ; HD63701V0C RAM $0040-$00FF (192 B)
+   11/F000 :                            ;RAMVAL1		equ		$0040
+   12/F000 :                            	; comment
+   13/F000 :                            
+   14/F000 :                            start:
+   15/F000 : 86 FF                      	LDAA	#$FF
+   16/F002 : 97 00                      	STAA	$0000
+   17/F004 :                            
+   18/F004 : 86 AA                      	LDAA	#$AA
+   19/F006 : 97 02                      	STAA	$0002
+   20/F008 : 7E F0 00                   	JMP	start
+   21/F00B :                            
+   22/F00B :                            	END
+ AS V1.42 Beta [Bld 293] - Source File hd63701v0_test.asm - Page 2 - 3/26/2026 21:15:9
+
+
+  Symbol Table (* = unused):
+  --------------------------
+
+*ARCHITECTURE :                                        "i386-unknown-win32" - |
+*CASESENSITIVE :                  0 - | *CONSTPI :        3.141592653589793 - |
+*DATE :                 "3/26/2026" - | *FALSE :                          0 - |
+*FLOATMAX :      1.797693134866E308 - | *HAS64 :                          1 - |
+*LISTON :                         1 - | *MACEXP :                         7 - |
+*MOMCPU :                      6301 - | *MOMCPUNAME :                "6301" - |
+*NESTMAX :                      100 - | *PADDING :                        0 - |
+*RELAXED :                        0 - | *RESVEC :                      FFFE C |
+ START :                       F000 C | *TIME :                   "21:15:9" - |
+*TRUE :                           1 - | *VERSION :                     142F - |
+
+     19 symbols
+     18 unused symbols
+
+ AS V1.42 Beta [Bld 293] - Source File hd63701v0_test.asm - Page 3 - 3/26/2026 21:15:9
+
+
+  Code Pages:
+  ----------
+
+STANDARD (0 changed characters)
+
+1 code page
+ AS V1.42 Beta [Bld 293] - Source File hd63701v0_test.asm - Page 4 - 3/26/2026 21:15:9
+
+
+  Space Used in CODE :
+  --------------------
+
+F000-F00A          FFFE-FFFF          
+
+
+0.03 seconds assembly time
+
+     35 lines source file
+      2 passes
+      0 errors
+      0 warnings
