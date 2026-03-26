@@ -1,0 +1,9 @@
+Comment,Designator,Footprint,LCSC,Quantity
+Conn_01x03,J3,PinHeader_1x03_P2.54mm_Vertical,,1
+27256,U1,DIP-28_W15.24mm_Socket_LongPads,,1
+HD63701V0,U2,DIP_Socket-40_W11.9mm_W12.7mm_W15.24mm_W17.78mm_W18.5mm_3M_240-1280-00-0602J,,1
+Conn_01x02,J6,PinHeader_1x02_P2.54mm_Vertical,,1
+Conn_01x02,J5,PinHeader_1x02_P2.54mm_Vertical,,1
+Conn_01x03,J4,PinHeader_1x03_P2.54mm_Vertical,,1
+Conn_01x03,J2,PinHeader_1x03_P2.54mm_Vertical,,1
+Conn_01x03,J1,PinHeader_1x03_P2.54mm_Vertical,,1

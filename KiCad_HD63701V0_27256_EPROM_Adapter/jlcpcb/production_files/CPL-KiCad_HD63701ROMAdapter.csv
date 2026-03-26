@@ -1,0 +1,9 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,96.52,-93.98,0.0,top
+J2,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,96.52,-83.82,0.0,top
+J3,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,96.52,-73.66,0.0,top
+J4,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,137.16,-109.22,90.0,top
+J5,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,138.43,-104.14,90.0,top
+J6,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,128.27,-104.14,-90.0,top
+U1,27256,DIP-28_W15.24mm_Socket_LongPads,135.243,-81.046,0.0,top
+U2,HD63701V0,DIP_Socket-40_W11.9mm_W12.7mm_W15.24mm_W17.78mm_W18.5mm_3M_240-1280-00-0602J,111.76,-93.56,180.0,top
